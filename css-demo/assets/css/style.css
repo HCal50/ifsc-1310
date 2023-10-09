@@ -9,6 +9,20 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/*----Utility Classes----*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-----Utility Classes---*/
+
+.container {
+  max-width: 80vw;
+  margin: 40px auto;
+}
+
 /* --------Global Styles------*/
 body {
   font-family: "Oswald", sans-serif;
@@ -48,25 +62,104 @@ header.primary nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding:0;
+  padding: 0;
 }
 
-header.primary nav ul li{
-  list-style-type:none;
+header.primary nav ul li {
+  list-style-type: none;
 }
 
-header.primary nav ul li a{
-  color:#ffffff;
-  text-decoration:none;
-  background-color:#000000;
+header.primary nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000;
   padding: 5px 10px;
   /* T+B, L+R*/
-  border:5px groove #00060D;
+  border: 5px groove #00060d;
   border-radius: 5px 10px;
-  opacity:.6;
-  transition:1s;
+  opacity: 0.6;
+  transition: 1s;
 }
 
-header.primary nav ul li a:hover{
-  background-color:#FFFFFF;
+header.primary nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#intro {
+  border-bottom: 5px solid #0e2618;
+  padding-bottom: 14px;
+}
+
+#intro h2 {
+  color: #5c735d;
+  border-bottom: 5px dotted #5c735d;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#content .post {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+#content article.post:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}
+
+article.post figure {
+  margin: 0;
+}
+
+article.post time.post-date,
+article.post figcaption,
+article.post .post-meta {
+  text-transform: uppercase;
+  color: #0e2618;
+}
+
+article.post a {
+  color: #5c735d;
+}
+
+article.post a:hover {
+  text-decoration: none;
+}
+
+article.post img {
+  border: 3px solid #0e2618;
+  padding: 2px;
+  margin: 10px auto;
+}
+
+aside[role=complementary]{
+  background-color: #5C735D;
+  padding:1.9rem;
+}
+
+aside.container{
+  display:flex;
+  flex-direction:row;
+  gap:40px
+}
+
+
+
+/*-------Media Queries------*/
+
+@media screen and (max-width: 600px) {
+  header.primary nav ul {
+    flex-direction: column;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  header.primary nav ul a {
+    display: block;
+  }
 }
