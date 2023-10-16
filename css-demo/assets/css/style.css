@@ -23,27 +23,27 @@ img {
   margin: 40px auto;
 }
 
-.img-right{
-  float:right;
-  margin:10px 0 10px 20px;
+.img-right {
+  float: right;
+  margin: 10px 0 10px 20px;
   border: 3px dotted #0e2618;
-  padding:5px;
+  padding: 5px;
   background-color: #5c735d;
 }
 
-.img-left{
-  float:left;
-  margin:10px 0 10px 20px;
+.img-left {
+  float: left;
+  margin: 10px 0 10px 20px;
   border: 3px dotted #0e2618;
-  padding:5px;
+  padding: 5px;
   background-color: #5c735d;
 }
 
-.img-center{
-  display:block;
-  margin:20px auto;
+.img-center {
+  display: block;
+  margin: 20px auto;
   border: 3px dotted #0e2618;
-  padding:5px;
+  padding: 5px;
   background-color: #5c735d;
 }
 
@@ -51,16 +51,13 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   margin: 0;
-  background-image:url("../img/945615001567-R1-003.jpg");
-  background-repeat:no-repeat;
+  background-image: url(../img/945615001567-R1-003.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
 }
 header.primary {
   background-color: #5c735d;
-  text-shadow: 1px 1px #000000;
-  text-align: center;
-  padding: 20px;
-  /* T, R, B, L*/
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 header.primary h1 {
@@ -164,10 +161,77 @@ article.post img {
   margin: 10px auto;
 }
 
-#practice h2{
-  color:#5c735d;
-  border-bottom:3px dotted #0e2618;
-  
+#practice h2 {
+  color: #5c735d;
+  border-bottom: 3px dotted #0e2618;
+}
+
+table {
+  border: 3px solid #0e2618;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin: 5px;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+th {
+  background-color: #5c735d;
+  padding: 10px;
+}
+td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+td:nth-child(n + 2) {
+  text-align: right;
+}
+
+#practice ol {
+  clear: both;
+  list-style-type: roman;
+}
+
+#practice ul {
+  list-style-type: "\1F44D";
+}
+
+dl {
+  width: 50%;
+  background: #5c735d;
+  margin: auto;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0;
+}
+
+dd + dt {
+  margin-top: 20px;
+}
+
+#practice h4 {
+  border-left: 8px solid #5c735d;
+  padding: 5px 10px;
+}
+
+#practice blockquote {
+  padding: 60px 8px 40px;
+  position: relative;
+  font-family: "Utopia-italic";
+}
+
+#practice blockquote cite {
+  display: block;
+  text-align: right;
+  font-size: 0.8rem;
+  margin-top: 5px;
 }
 
 aside[role="complementary"] {
