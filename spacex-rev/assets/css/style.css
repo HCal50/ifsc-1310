@@ -7,3 +7,66 @@
 */
 
 /* ---------------Box Sizing----------------- */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply color schemes */
+  body {
+    background-color: #DCEAF2;
+    color: #373740;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  header.primary {
+    background-color: #BACDD9;
+  }
+  
+  nav ul {
+    background-color: #5D6273;
+  }
+  
+  nav a {
+    color: #DCEAF2;
+  }
+  
+  section#content {
+    border: 2px solid #9298A6;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  section#articles {
+    background-color: #BACDD9;
+    color: #373740;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  article.post {
+    background-color: #DCEAF2;
+    border: 2px solid #9298A6;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .img-center {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  aside {
+    background-color: #5D6273;
+    color: #DCEAF2;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  footer#colophon {
+    background-color: #373740;
+    color: #DCEAF2;
+    padding: 10px;
+    text-align: center;
+  }
