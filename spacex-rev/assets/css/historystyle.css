@@ -1,0 +1,83 @@
+/* Apply color schemes 
+#373740 
+#5D6273 
+#9298A6
+#BACDD9
+#DCEAF2
+*/
+body {
+    background-color: #DCEAF2;
+    color: #373740;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  header {
+    background-color: #BACDD9;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header.primary h1  {
+    color: #ffffff;
+    background-image: url("https://assets.codepen.io/7248/logo-2.png");
+    display: block;
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  header h2{
+    color:#373740;
+  }
+  
+  nav ul {
+    background-color: #5D6273;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #DCEAF2;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #9298A6;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #BACDD9;
+  }
+  
+  th, td {
+    border: 1px solid #9298A6;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tfoot {
+    background-color: #5D6273;
+    color: #DCEAF2;
+  }
+  
+  footer {
+    background-color: #373740;
+    color: #DCEAF2;
+    padding: 10px;
+    text-align: center;
+  }
+  

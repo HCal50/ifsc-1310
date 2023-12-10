@@ -7,3 +7,86 @@
 */
 
 /* ---------------Box Sizing----------------- */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply color schemes */
+body {
+    background-color: #373740;
+    color: #DCEAF2;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    background-color: #5D6273;
+    padding: 20px;
+    text-align: center;
+}
+
+header.primary h1 a {
+    color: #DCEAF2;
+    background-image: url("https://assets.codepen.io/7248/logo-2.png");
+    display: block;
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+nav ul {
+    background-color: #373740;
+}
+
+nav a {
+    color: #DCEAF2;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #BACDD9;
+}
+
+section#content {
+    border: 2px solid #5D6273;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section#articles {
+    background-color: #5D6273;
+    color: #DCEAF2;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+article.post {
+    background-color: #373740;
+    border: 2px solid #5D6273;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.img-center {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+aside {
+    background-color: #373740;
+    color: #DCEAF2;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer#colophon {
+    background-color: #5D6273;
+    color: #DCEAF2;
+    padding: 10px;
+    text-align: center;
+}
